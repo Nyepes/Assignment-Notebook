@@ -9,7 +9,7 @@
 import UIKit
 
 class MasterViewController: UITableViewController {
-
+    
     var detailViewController: DetailViewController? = nil
     var assignments = [Assignment]()
     let defaults = UserDefaults.standard
@@ -49,7 +49,7 @@ class MasterViewController: UITableViewController {
             textField.placeholder = "Subject"
         }
         alert.addTextField { (textField) in
-            textField.placeholder = "Due Date"
+            textField.placeholder = "Due Date (month/day/year)"
         }
         alert.addTextField { (textField) in
             textField.placeholder = "Description"
