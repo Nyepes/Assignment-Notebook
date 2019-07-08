@@ -60,6 +60,7 @@ class MasterViewController: UITableViewController {
             self.tableView.reloadData()
         }
         alert.addAction(insertAction)
+        present(alert, animated: true, completion: nil)
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
