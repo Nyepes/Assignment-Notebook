@@ -15,6 +15,7 @@
 		37C46BE822D3C0360045C197 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C46BE622D3C0360045C197 /* LaunchScreen.storyboard */; };
 		37C46BF322D3C0360045C197 /* Assignment_NotebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C46BF222D3C0360045C197 /* Assignment_NotebookTests.swift */; };
 		37C46BFE22D3C0360045C197 /* Assignment_NotebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C46BFD22D3C0360045C197 /* Assignment_NotebookUITests.swift */; };
+		37C46C0C22D3C1050045C197 /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C46C0B22D3C1050045C197 /* Assignment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		37C46BF922D3C0360045C197 /* Assignment NotebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment NotebookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C46BFD22D3C0360045C197 /* Assignment_NotebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_NotebookUITests.swift; sourceTree = "<group>"; };
 		37C46BFF22D3C0360045C197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37C46C0B22D3C1050045C197 /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				37C46BDB22D3C0350045C197 /* AppDelegate.swift */,
+				37C46C0B22D3C1050045C197 /* Assignment.swift */,
 				37C46BDD22D3C0350045C197 /* MasterViewController.swift */,
 				37C46BDF22D3C0350045C197 /* DetailViewController.swift */,
 				37C46BE122D3C0350045C197 /* Main.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37C46C0C22D3C1050045C197 /* Assignment.swift in Sources */,
 				37C46BE022D3C0350045C197 /* DetailViewController.swift in Sources */,
 				37C46BDE22D3C0350045C197 /* MasterViewController.swift in Sources */,
 				37C46BDC22D3C0350045C197 /* AppDelegate.swift in Sources */,
@@ -437,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96Y42UFR86;
 				INFOPLIST_FILE = "Assignment Notebook/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96Y42UFR86;
 				INFOPLIST_FILE = "Assignment Notebook/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
